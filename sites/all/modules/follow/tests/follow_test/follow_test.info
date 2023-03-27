@@ -1,0 +1,11 @@
+name = Follow Test module
+description = Used for Testing Follow module.
+dependencies[] = follow
+hidden = TRUE
+core = 7.x
+
+; Information added by Drupal.org packaging script on 2020-02-06
+version = "7.x-2.0-alpha2"
+core = "7.x"
+project = "follow"
+datestamp = "1581010760"
