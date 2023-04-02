@@ -57,6 +57,17 @@
    <link href="http://fonts.googleapis.com/css?family=Droid+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css" >
     <?php print $scripts; ?>
 </head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ND3WFVT75L"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ND3WFVT75L');
+</script>
+
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
 
 
